@@ -16,9 +16,6 @@ pushd $WD
 #   This can be excluded only for real devices.
 # - Xcode 16 started generating 5.9MB of 'Testing.framework', but it might not be necessary for WDA.
 # - libXCTestSwiftSupport is used for Swift testing. WDA doesn't include Swift stuff, thus this is not needed.
-zip -r $ZIP_PKG_NAME $SCHEME-Runner.app \
-    -x "$SCHEME-Runner.app/Frameworks/XC*.framework*" \
-       "$SCHEME-Runner.app/Frameworks/Testing.framework*" \
-       "$SCHEME-Runner.app/Frameworks/libXCTestSwiftSupport.dylib"
+zip -r $ZIP_PKG_NAME $SCHEME-Runner.app
 popd
 mv $WD/$ZIP_PKG_NAME ./
