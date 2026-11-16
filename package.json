@@ -68,7 +68,7 @@
     "@appium/support": "^7.2.1",
     "appium-ios-simulator": "^9.0.0",
     "async-lock": "^1.0.0",
-    "asyncbox": "^6.1.0",
+    "asyncbox": "^7.0.0",
     "axios": "^1.16.0",
     "teen_process": "^4.0.7"
   },
