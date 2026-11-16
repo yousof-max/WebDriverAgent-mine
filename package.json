@@ -80,7 +80,7 @@
     "@types/async-lock": "^1.4.2",
     "@types/node": "^26.0.0",
     "@types/sinon": "^22.0.0",
-    "appium-xcode": "^7.0.0",
+    "appium-xcode": "^8.0.1",
     "node-simctl": "^9.0.0",
     "semver": "^7.3.7",
     "sinon": "^22.0.0"
